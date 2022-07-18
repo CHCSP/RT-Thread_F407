@@ -94,7 +94,7 @@ static void test_thread_entry(void *parameter)
         //HAL_GPIO_TogglePin(LED1_GPIO_Port,LED1_Pin);
         //HAL_GPIO_TogglePin(BEEP_GPIO_Port,BEEP_Pin);
         //rt_kprintf("Kprintf test!!! \n");
-        //ABC
+        //ABCDs
         if((KEY0==0||KEY1==0||KEY2==0||WK_UP==1))
         {
             count++;
