@@ -5,12 +5,12 @@
 
 
 
-
+//abc
 
 u8 KEY_Scan(u8 mode)
 {
-    static u8 key_up=1; //°´¼üËÉ¿ª±êÖ¾
-    if(mode==1)key_up=1; //Ö§³ÖÁ¬°´
+    static u8 key_up=1; //æŒ‰é”®æ¾å¼€æ ‡å¿—
+    if(mode==1)key_up=1; //æ”¯æŒè¿æŒ‰
     if(key_up&&(KEY0==0||KEY1==0||KEY2==0||WK_UP==1))
     {
         delay_ms(10);
@@ -22,7 +22,7 @@ u8 KEY_Scan(u8 mode)
     }
     else if(KEY0==1&&KEY1==1&&KEY2==1&&WK_UP==0)
         key_up=1;
-    return 0; //ÎŞ°´¼ü°´ÏÂ
+    return 0; //æ— æŒ‰é”®æŒ‰ä¸‹
 }
 
 
