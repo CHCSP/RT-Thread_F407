@@ -7,6 +7,7 @@
 
 
 //123
+//456
 u8 KEY_Scan(u8 mode)
 {
     static u8 key_up=1; //按键松开标志
